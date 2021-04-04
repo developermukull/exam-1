@@ -1,0 +1,595 @@
+
+  input[type="checkbox"]{
+      display: none;
+  }
+
+
+  @media all and (max-width:1535px) {
+    textarea {
+        padding: 15px 0 105px 15px;
+    }
+  }
+
+@media all and (max-width:1220px) {
+    .skills-section {
+        padding: 0 30px 100px 30px;
+    }
+    .header-logo {
+        padding: 0 30px;
+    }
+    .header-menu ul {
+        padding: 0 30px;
+    }
+    .portfolio-section {
+        padding: 50px;
+    }
+    .education-section {
+        padding: 100px 30px 0 30px;
+    }
+
+}
+
+
+@media all and (max-width:1162px) {
+    .employment-text {
+        flex-direction: column;
+    }
+    .employment-text span {
+        width: 88px;
+    }
+    .employment-text h3 {
+        padding-left: 0;
+        margin-top: 8px;
+    }
+}
+
+@media all and (max-width:1060px) {
+    .education-right img {
+        height: 100%;
+    }
+}
+
+
+
+
+@media all and (max-width:992px) {
+    .header-menu ul li a {
+        padding-left: 20px;
+    }
+    .banner-inner h1 {
+        font-size: 63px;
+    }
+    .banner-inner h2::before {
+        content: "";
+        opacity: 0;
+        visibility: hidden;
+    }
+    .banner-inner h2::after {
+        content: "";
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .hellow-section {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+    .hellow-items {
+        flex-wrap: wrap;
+    }
+    .hellow-img {
+        width: 100%;
+    }
+    .hellow-content {
+        width: 100%;
+    }
+/* portfolio-section */
+    .title h2 {
+        font-size: 28px;
+    }
+    .portfolio-items {
+        /* justify-content: space-around; */
+        justify-content: space-between;
+    }
+    .portfolio-content {
+        /* width: 47%; */
+        width: 48.50%;
+        margin-bottom: 25px;
+    }
+    .portfolio-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* skills-sextion */
+    .skills-section {
+        padding: 0 50px 50px 50px;
+    }
+    .skills-box {
+        width: 48.50%;
+    }
+    .skills-box {
+        width: 100%;
+    }
+
+    .skills-content p {
+        padding-top: 11px;
+    }
+
+    /* counter-section */
+    .counter-section {
+        padding: 100px 0 50px 0;
+    }
+    .counter-items {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .counter-content {
+        width: 48%;
+        margin-bottom: 51px;
+    }
+
+    /* education-section */
+    .education-section {
+        padding: 100px 50px 0 50px;
+    }
+    .education-content {
+        flex-wrap: wrap;
+    }
+    .education-left {
+        width: 100%;
+    }
+    .education-left-left {
+        width: 100%;
+    }
+    .education-left-right {
+        width: 100%;
+    }
+    .education-left-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .education-left-right p {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .education-right {
+        width: 100%;
+    }
+    /*employment-section*/
+    .employment-section {
+        padding: 80px 50px;
+    }
+    .employment-items {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .employment-content {
+        width: 48%;
+        margin-top: 23px;
+    }
+
+    /* fearure-section */
+    .feature-middle {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 0;
+        padding-bottom: 0;
+        flex-wrap: wrap;
+    }
+    .feature-middle img {
+        width: 50%;
+    }
+    .feature-bottom {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .feature-bottom img {
+        width: 50%;
+    }
+    /* hire-me-section */
+    .hire-me-section {
+        padding: 0 70px 100px 70px;
+    }
+    .hire-top-content {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .hire-text {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .hire-middle-content {
+        padding: 0 0 20px 0;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .hire-form-left {
+        width: 100%;
+    }
+    .hire-form-right {
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media all and (max-width:879px) {
+    header{
+        position: relative;
+    }
+    input[type="checkbox"]{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        appearance: none;
+        display: block;
+    }
+    input[type="checkbox"]::after{
+        content: "\f0c9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+        position: absolute;
+        top: 9px;
+        left: 12px;
+        font-size: 30px;
+        color: #fff;
+    }
+    .header-menu ul {
+        opacity: 0;
+        visibility: hidden;
+    }
+    input[type="checkbox"]:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+    }
+    .header-logo {
+        padding: 0px 20px;
+        width: 100%;
+        text-align: right;
+    }
+    .header-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: absolute;
+        top: 74px;
+        left: -8px;
+        width: 155px;
+        height: 201px;
+        background: #1609094f;
+        padding: 5px 0;
+        align-items: flex-start;
+  
+    }
+    .header-menu ul li {
+        margin-bottom: 8px;
+    }
+    .header-menu ul li a{
+        font-weight: 600;
+    }
+    .header-menu ul li ul {
+        left: 155px;
+        top: -14px;
+        background: #1609094f;
+    }
+    .header-menu ul li a i {
+        transform: rotate(-90deg);
+    }
+  
+    .header-menu ul li ul li a i {
+        transform: rotate(0deg);
+    }
+    .header-menu ul li ul li ul {
+        padding: 9px 10px;
+        width: 90px;
+        height: 100px;
+        background: #1609094f;
+        top: -9px;
+    }
+  
+
+}
+
+
+
+
+
+
+
+@media all and (max-width:768px) {
+    .title h2 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .portfolio-content {
+        width: 100%;
+    }
+    .counter-content {
+        width: 100%;
+    }
+    .employment-section {
+        padding: 50px 50px;
+    }
+    .employment-content {
+        width: 100%;
+        margin-top: 23px;
+    }
+    .feature-middle img {
+        width: 100%;
+    }
+    .feature-bottom img {
+        width: 100%;
+    }
+    .hire-text {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width:720px) {
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+    .portfolio-menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .portfolio-menu ul li {
+        font-size: 13px;
+        padding-bottom: 12px;
+    }
+    .portfolio-menu ul {
+        padding: 1px 0;
+        margin: 0px 0 0px 0;
+    }
+}
+
+
+
+
+@media all and (max-width:676px) {
+    .banner-inner h1 {
+        font-size: 48px;
+        font-weight: 500;
+    }
+}
+
+
+
+
+@media all and (max-width:576px) {
+
+    .hellow-right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hellow-ul-left {
+        width: 40%;
+    }
+    .hellow-content h2 {
+        line-height: 29px;
+        font-size: 16px;
+    }
+    .hellow-ul-right {
+        width: 60%;
+    }
+    .hellow-ul-left ul li {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .hellow-ul-right ul li {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .hellow-content a {
+        padding: 10px 12px;
+        font-size: 11px;
+    }
+
+    .portfolio-section {
+        padding: 20px;
+    }
+
+    .skills-section {
+        padding: 0 20px 50px 20px;
+    }
+
+    .education-section {
+        padding: 50px 20px 0 20px;
+    }
+
+    .employment-section {
+        padding: 50px 20px;
+    }
+
+    .feature-section {
+        padding: 50px 20px 0 20px;
+    }
+    .hire-me-section {
+        padding: 0 20px 50px 20px;
+    }
+    footer {
+        padding-bottom: 50px;
+    }
+
+
+}
+
+
+
+
+
+@media all and (max-width:498px) {
+    .banner-inner h1 {
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .banner-inner h2 {
+        font-weight: 600;
+        font-size: 15px;
+        padding: 20px 0;
+    }
+    .banner-inner a {
+        padding: 10px 17px;
+    }
+    .skills-content h3 {
+        font-size: 15px;
+    }
+    .skills-content p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+}
+
+
+@media all and (max-width:476px) {
+    .title h2 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .education-left-left {
+        text-align: center;
+    }
+    .education-left-right {
+        text-align: center;
+        margin-top: 9px;
+    }
+}
+@media all and (max-width:448px) {
+    .header-menu ul {
+        width: 122px;
+    }
+    .header-menu ul li ul {
+        left: 122px;
+    }
+    .header-menu ul li ul {
+        width: 163px;
+        padding: 5px 3px;
+    }
+    .header-menu ul li ul li ul {
+        left: 131%;
+    }
+    .header-menu ul li a{
+        font-size: 12px;
+    }
+    .header-menu ul li ul li a{
+        font-size: 12px;
+    }
+    .header-menu ul li ul li ul a{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+@media all and (max-width:400px) {
+    .banner-inner h2 {
+        padding: 20px 12px;
+    }
+    .header-menu ul li ul li ul {
+        left: 112%;
+    }
+    .hellow-ul-left {
+        width: 50%;
+    }
+    .hellow-ul-right {
+        width: 50%;
+    }
+}
+
+@media all and (max-width:380px) {
+    .banner-inner h1 {
+        font-size: 30px;
+    }
+    .hire-items {
+        padding: 5px 30px 30px 30px;
+        margin-top: 50px;
+    }
+    .hire-top-content strong a {
+        font-size: 11px;
+    }
+
+}
+@media all and (max-width:350px) {
+    .skills-content p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .hellow-content {
+        padding: 60px 20px;
+    }
+    .hellow-ul-left ul li {
+        font-size: 12px;
+    }
+    .hellow-ul-right ul li {
+        font-size: 12px;
+    }
+    .employment-items {
+        text-align: center;
+    }
+
+    .employment-text span {
+        margin: auto;
+    }
+
+}
+@media all and (max-width:350px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+@media all and (max-width:336px) {
+    .header-menu ul li ul {
+        width: 137px;
+    }
+    .header-menu ul li ul li ul {
+        left: 112%;
+    }
+}
+@media all and (max-width:312px) {
+    .title h2 {
+        font-size: 13px;
+    }
+}
+@media all and (max-width:312px) {
+    button {
+        font-weight: 500;
+    }
+}
+@media all and (max-width:300px) {
+    .hellow-content a {
+        padding: 10px 22px;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .hellow-content a {
+        padding: 8px 9px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
